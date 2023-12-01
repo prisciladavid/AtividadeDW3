@@ -1,0 +1,19 @@
+### teste de ordenar vetor
+POST http://localhost:40000/mostraVetorOrdenado
+content-Type: application/json
+
+{
+    "vetor": [3, 6, 1, 8, 5, 9, 5, 1, 0, -1, 8]
+    //"vetor": [2]
+    //"vetor": [3, 6, 1, 8, 5, 9, 5, 1, 0, -1, 8, 34, 11, -7, 22, 87, -3, 14, -9, 30, 2]
+}
+
+### teste de retornar menor e maior número do vetor
+POST http://localhost:40000/mostraMenorMaior 
+content-Type: application/json
+
+{
+    "vetor": [3, 6, 1, 8, 5, 9, 5, 1, 0, -1, 8]
+    //"vetor": [2]
+    //"vetor": [3, 6, 1, 8, 5, 9, 5, 1, 0, -1, 8, 34, 11, -7, 22, 87, -3, 14, -9, 30, 2]
+}
